@@ -27,7 +27,7 @@ public class TestRefactorizacion {
         Academia academia = new Academia(nombre);
         
         opcion = -1;
-        
+        /* Mostarmos el menu para el usuario */
         do {
             System.out.println("--------------------------------------------------");
             System.out.println("1. Academia.");
@@ -76,9 +76,9 @@ public class TestRefactorizacion {
                     System.out.println("2. Seleccionar curso.");
                     System.out.println("3. ELiminar curso.");
                     System.out.println("4. Ver cursos.");
-                    System.out.println("5. Añadir alumno.");
+                    System.out.println("5. AÃ±adir alumno.");
                     System.out.println("6. Eliminar alumno.");
-                    System.out.println("7. Añadir asignatura.");
+                    System.out.println("7. AÃ±adir asignatura.");
                     System.out.println("8. Eliminar asignatura");
                     System.out.println("9. Seleccionar tutor.");
                     System.out.println("10. Seleccionar delegado.");
