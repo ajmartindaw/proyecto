@@ -19,7 +19,9 @@ public class TestRefactorizacion {
      */
     public static void main(String[] args) {
         char respuesta;
-        String nombre = "";
+        String nombre = "";/*
+        Solicitamos el nombre de la academia para crearla
+        */
         System.out.print("Introduce el nombre de la academia > ");
         nombre = sc.nextLine();
         Academia academia = new Academia(nombre);
